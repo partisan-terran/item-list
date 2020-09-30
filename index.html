@@ -78,14 +78,12 @@
 				    <button class="btn btn-success" ng-class="{'active': (selected == '4')}" ng-click='selected=4'>
                                         Traits
                                     </button>
-				    <!--
 			            <button class="btn btn-success" ng-class="{'active': (selected == '5')}" ng-click='selected=5'>
                                         Commands
                                     </button>
 				    <button class="btn btn-success" ng-class="{'active': (selected == '6')}" ng-click='selected=6'>
                                         Mods
                                     </button>
-				    -->
                                 </div>
                                 <div class="form-group row">
                                     <label class="col-sm-2 col-form-label" for="">Price Between:</label>
@@ -222,6 +220,64 @@
                         </div>
                     </div>
                 </div>
+                <div class="row" ng-show='selected == 5'>
+                    <div class="col-md-12">
+                        <div id="commands">
+                            <div class="input-group input-group-sm mb-3">
+                                <div class="input-group-prepend">
+                                    <span class="input-group-text" id="inputGroup-sizing-sm">Search</span>
+                                </div>
+                                <input type="text" class="form-control search" aria-label="Search" aria-describedby="inputGroup-sizing-sm">
+                            </div>
+                            <p>
+                                <button type="button" class="btn btn-primary sort" data-sort="usage">
+                                    Sort
+                                </button>
+                                <button type="button" class="btn btn-primary sort" data-sort="userLevel">
+                                    Sort by User Level
+                                </button>
+                            </p>
+                            <table class="table commands">
+                                <tr>
+                                    <th scope="col" class="sort" data-sort="usage">Usage</th>
+				    <th scope="col" class="sort" data-sort="userLevel">User Level</th>
+				    <th scope="col">Description</th>
+				</tr>
+                                <tbody class="list">
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+		</div>
+                <div class="row" ng-show='selected == 6'>
+                    <div class="col-md-12">
+                        <div id="mods">
+                            <div class="input-group input-group-sm mb-3">
+                                <div class="input-group-prepend">
+                                    <span class="input-group-text" id="inputGroup-sizing-sm">Search</span>
+                                </div>
+                                <input type="text" class="form-control search" aria-label="Search" aria-describedby="inputGroup-sizing-sm">
+                            </div>
+                            <p>
+                                <button type="button" class="btn btn-primary sort" data-sort="name">
+                                    Sort
+                                </button>
+                                <button type="button" class="btn btn-primary sort" data-sort="author">
+                                    Sort by Author
+                                </button>
+                            </p>
+                            <table class="table mods">
+                                <tr>
+                                    <th scope="col" class="sort" data-sort="name">Name</th>
+				    <th scope="col" class="sort" data-sort="author">Author</th>
+				    <th scope="col">Version</th>
+				</tr>
+                                <tbody class="list">
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+		</div>
             </div>
         </div>
         <div class="container">
@@ -354,6 +410,36 @@
             pawnRaceList = new List('traits', options, traitData);
         });
 
+	let commandList = null;
+	$.getJSON(commandsURL, function(data) {
+            var options = {
+                valueNames: ['usage', 'userLevel', 'description'],
+                item: '<tr><td class="usage" scope="row"></td><td class="userLevel"></td><td class="description"></td></tr>'
+            };
+
+            var commandData = [];
+            $.each(data, function(index, value) {
+                commandData.push(value);
+            });
+
+            commandList = new List('commands', options, commandData);
+        });
+	    
+	let modList = null;
+	$.getJSON(commandsURL, function(data) {
+            var options = {
+                valueNames: ['name', 'author', 'version'],
+                item: '<tr><td class="name" scope="row"></td><td class="author"></td><td class="version"></td></tr>'
+            };
+
+            var modData = [];
+            $.each(data, function(index, value) {
+                modData.push(value);
+            });
+
+            modList = new List('mods', options, modData);
+        });
+	    
         $("#item-price-min").keyup(function() {
             updateItemFilter();
         });
