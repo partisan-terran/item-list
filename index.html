@@ -14,6 +14,9 @@
     <script type="text/javascript">
         const itemListURL = "https://raw.githubusercontent.com/partisan-terran/item-list/master/StoreItems.json";
         const eventListURL = "https://raw.githubusercontent.com/partisan-terran/item-list/master/StoreEvents.json";
+	const shopExtURL = "https://raw.githubusercontent.com/partisan-terran/item-list/master/ShopExt.json";
+	const commandsURL = "https://raw.githubusercontent.com/partisan-terran/item-list/master/commands.json";
+	const modlistURL = "https://raw.githubusercontent.com/partisan-terran/item-list/master/modlist.json";
     </script>
 </head>
 
@@ -40,19 +43,19 @@
                 <h1 class="display-3">TwitchToolkit</h1>
                 <p>TwitchToolkit is a mod written by Twitch.tv/hodlhodl that integrates storytelling decisions into chat votes, awards viewers coins for watching, and those coins can be spent on items/events in game.</p>
                 <ul class="list-group">
-	            <li class="list-group-item">!modinfo - gives users info about the mod</li>
+                    <li class="list-group-item">!bal - check balance and karma rate</li>
+                    <li class="list-group-item">!buy - purchase an item or event, e.g. !buy beer 3, !buy psychicsoothe, !buy table</li>
+                    <li class="list-group-item">!lookup - lookup a full name by a substring, e.g. !lookup event psychic, !lookup item be, !lookup disease sens</li>
+	            <li class="list-group-item">!price - check the prices of an entity, e.g. !price item beer, !price beer, !price event psychicdrone, !price trait sanguine</li>
+                    <li class="list-group-item">!allcommands - shows available commands to the user (a subset really)</li>
+		    <li class="list-group-item">!modinfo - gives users info about the mod</li>
 		    <li class="list-group-item">!instructions - gives users info on using the mod</li>
 		    <li class="list-group-item">!whatiskarma - explains what the karma system is</li>
 		    <li class="list-group-item">!modsettings - gives user info on how many coins are being earned and global settings</li>
-                    <li class="list-group-item">!allcommands - shows available commands to the user (a subset really)</li>
-                    <li class="list-group-item">!bal - check balance and karma rate</li>
-                    <li class="list-group-item">!buy - Syntax: !buy beer 6 - purchase an item or event</li>
-                    <li class="list-group-item">!lookup - Syntax: !lookup event psychic - lookup event/item/etc. by a substring</li>
 		    <li class="list-group-item">!purchaselist - gives users a link to this page</li>
                     <li class="list-group-item">!joinqueue - join the viewer name queue to get some colonist named after you</li>
                     <li class="list-group-item">!giftcoins - Syntax: !giftcoins @username 100 - give another viewer your coins</li>
-                    <li class="list-group-item">!mypawnstory - view information about your pawns backstory</li>
-                    <li class="list-group-item">!mypawnskills - view information about your pawns skills</li>
+                    <li class="list-group-item">!mypawnstory, !mypawnskills, !mypawnhealth, !mypawnneeds, !mypawngear, !mypawnbody etc. - view a detailed information about your pawn</li>
                 </ul>
             </div>
         </div>
