@@ -1,0 +1,430 @@
+[
+  {
+    "author": "Andreas Pardeike",
+    "name": "Harmony",
+    "steamId": "2009463077",
+    "version": "1.0.4.0"
+  },
+  {
+    "author": "UnlimitedHugs",
+    "name": "HugsLib",
+    "steamId": "818773962",
+    "version": "8.0.1"
+  },
+  {
+    "author": "Roolo",
+    "name": "Giddy-up! Core"
+  },
+  {
+    "author": "erdelf",
+    "name": "Humanoid Alien Races 2.0",
+    "steamId": "839005762",
+    "version": "1.0.0.0"
+  },
+  {
+    "author": "AUTOMATIC",
+    "name": "Autocleaner",
+    "steamId": "2051042827",
+    "version": "1.0.379.0018"
+  },
+  {
+    "author": "AUTOMATIC",
+    "name": "Recipe icons",
+    "steamId": "1616643195",
+    "version": "1.0.379.0018"
+  },
+  {
+    "author": "Sarg",
+    "name": "Alpha Biomes",
+    "steamId": "1841354677",
+    "version": "1.0.0.0"
+  },
+  {
+    "author": "Andreas Pardeike",
+    "name": "Achtung!",
+    "steamId": "730936602",
+    "version": "3.0.8.0"
+  },
+  {
+    "author": "erdelf",
+    "name": "Modders Deserve Credit, too",
+    "steamId": "2199645797",
+    "version": "1.0.0.0"
+  },
+  {
+    "author": "Krypt",
+    "name": "ModDiff",
+    "steamId": "2200054867",
+    "version": "1.0.0.0"
+  },
+  {
+    "author": "TimmyLiang",
+    "name": "TradeHelper",
+    "steamId": "2113372560",
+    "version": "0.0.0.0"
+  },
+  {
+    "author": "dhultgren",
+    "name": "Smarter Construction"
+  },
+  {
+    "author": "LongWater",
+    "name": "Quick Stockpile Creation",
+    "steamId": "1742151109",
+    "version": "1.0.0.0"
+  },
+  {
+    "author": "dracoix",
+    "name": "Door Mat"
+  },
+  {
+    "author": "Lanilor, Proxyer",
+    "name": "[1.2] Simple Recycling"
+  },
+  {
+    "author": "Two",
+    "name": "Two's Miniaturization"
+  },
+  {
+    "author": "PorqueNoLosDos",
+    "name": "Color Coded Mood Bar"
+  },
+  {
+    "author": "Crustypeanut",
+    "name": "[1.0, 1.1] RimCuisine 2 Core"
+  },
+  {
+    "author": "gguake",
+    "name": "Simple Search Bar"
+  },
+  {
+    "author": "LegendaryMinuteman",
+    "name": "Age Reversing Mech Serum"
+  },
+  {
+    "author": "Sarg",
+    "name": "Magical Menagerie"
+  },
+  {
+    "author": "Hob Took",
+    "name": "Mortar Accuracy",
+    "steamId": "1729446857",
+    "version": "1.0.0.0"
+  },
+  {
+    "author": "krafs",
+    "name": "Level Up!",
+    "steamId": "1701592470",
+    "version": "1.0.0"
+  },
+  {
+    "author": "Cocaine™",
+    "name": "Electric Stonecutting Table"
+  },
+  {
+    "author": "Sandy",
+    "name": "RPG Style Inventory",
+    "steamId": "1561221991",
+    "version": "1.0.0"
+  },
+  {
+    "author": "Wemd",
+    "name": "[WD] Realistic Darkness (Light)"
+  },
+  {
+    "author": "NoImageAvailable",
+    "name": "Mass Graves",
+    "steamId": "1542386771",
+    "version": "1.0.0.0"
+  },
+  {
+    "author": "EarthyTurtle, zhrocks",
+    "name": "Let's Trade!"
+  },
+  {
+    "author": "Jaxe",
+    "name": "Interaction Bubbles"
+  },
+  {
+    "author": "Jaxe",
+    "name": "RimHUD"
+  },
+  {
+    "author": "Fluffy",
+    "name": "Mod Manager",
+    "steamId": "1507748539",
+    "version": "3.8.1038"
+  },
+  {
+    "author": "Sarg",
+    "name": "Smart Speed"
+  },
+  {
+    "author": "Machine",
+    "name": "Better Infestations 1.2",
+    "steamId": "1319614331",
+    "version": "1.0.0.0"
+  },
+  {
+    "author": "Fluffy",
+    "name": "Research Tree",
+    "steamId": "1266570759",
+    "version": "3.17.533"
+  },
+  {
+    "author": "ItchyFlea",
+    "name": "Medical Training"
+  },
+  {
+    "author": "Avius",
+    "name": "Locks"
+  },
+  {
+    "author": "spoonshortage",
+    "name": "A Dog Said... Animal Prosthetics"
+  },
+  {
+    "author": "Roolo",
+    "name": "Giddy-up! Battle Mounts",
+    "steamId": "1217001091",
+    "version": "1.0.0.0"
+  },
+  {
+    "author": "Roolo",
+    "name": "Giddy-up! Ride and Roll"
+  },
+  {
+    "author": "Roolo",
+    "name": "Giddy-up! Caravan"
+  },
+  {
+    "author": "Spino",
+    "name": "Megafauna"
+  },
+  {
+    "author": "FrozenSnowFox",
+    "name": "[FSF] Efficient Utilities"
+  },
+  {
+    "author": "jecrell",
+    "name": "JecsTools",
+    "steamId": "932008009",
+    "version": "1.1.1.2"
+  },
+  {
+    "author": "Hatti",
+    "name": "QualitySurgeon"
+  },
+  {
+    "author": "Dubwise",
+    "name": "Dubs Skylights",
+    "steamId": "833899765",
+    "version": "1.5.1333"
+  },
+  {
+    "author": "Taveron",
+    "name": "Increased Stack"
+  },
+  {
+    "author": "spoonshortage",
+    "name": "RIMkea"
+  },
+  {
+    "author": "UnlimitedHugs",
+    "name": "Defensive Positions"
+  },
+  {
+    "author": "Rikiki",
+    "name": "FishIndustry",
+    "steamId": "758810805",
+    "version": "1.0.0.0"
+  },
+  {
+    "author": "Hatti",
+    "name": "QualityBuilder",
+    "steamId": "754637870",
+    "version": "1.0.14"
+  },
+  {
+    "author": "EdB",
+    "name": "EdB Prepare Carefully"
+  },
+  {
+    "author": "Ykara",
+    "name": "Expanded Prosthetics and Organ Engineering"
+  },
+  {
+    "author": "PinoChemicali",
+    "name": "More Trade Ships"
+  },
+  {
+    "author": "Jaxxa",
+    "name": "ED-Embrasures",
+    "steamId": "722085442",
+    "version": "1.0.0.0"
+  },
+  {
+    "author": "Haplo",
+    "name": "Misc. Training"
+  },
+  {
+    "author": "Fluffy",
+    "name": "Medical Tab",
+    "steamId": "715565817",
+    "version": "3.4.91"
+  },
+  {
+    "author": "PeteTimesSix",
+    "name": "Simple sidearms"
+  },
+  {
+    "author": "Hatti",
+    "name": "CleaningArea"
+  },
+  {
+    "author": "Lanilor",
+    "name": "Simply More Bridges (Continued)",
+    "steamId": "2012484790",
+    "version": "1.0.19.0"
+  },
+  {
+    "author": "The White Crayon (Updated for 1.1 by Ogliss)",
+    "name": "Quarry 1.1",
+    "steamId": "2007576583",
+    "version": "1.0.0.0"
+  },
+  {
+    "author": "Little White Mouse",
+    "name": "LWM's Deep Storage",
+    "steamId": "1617282896",
+    "version": "1.2.0.3"
+  },
+  {
+    "author": "Sarg, AFriend, milon, Skullywag and kaptain_kavern",
+    "name": "Alpha Animals",
+    "steamId": "1541721856",
+    "version": "1.0.0.0"
+  },
+  {
+    "author": "Murmur",
+    "name": "Wall Light",
+    "steamId": "1423699208",
+    "version": "1.0.0.0"
+  },
+  {
+    "author": "Uuugggg",
+    "name": "Replace Stuff",
+    "steamId": "1372003680",
+    "version": "1.0.0.0"
+  },
+  {
+    "author": "Mehni",
+    "name": "Pick Up And Haul"
+  },
+  {
+    "author": "Sam",
+    "name": "Tilled Soil"
+  },
+  {
+    "author": "hodlhodl",
+    "name": "ToolkitCore",
+    "steamId": "2018368654",
+    "version": "1.0.0.0"
+  },
+  {
+    "author": "hodlhodl",
+    "name": "Twitch Toolkit",
+    "steamId": "1718525787",
+    "version": "2.0.10.0"
+  },
+  {
+    "author": "SirRandoo",
+    "name": "ToolkitUtils",
+    "steamId": "",
+    "version": "5.0.1.7"
+  },
+  {
+    "author": "Kiame Vivacity",
+    "name": "[KV] Trading Spot",
+    "steamId": "1180719658",
+    "version": "1.0.0.0"
+  },
+  {
+    "author": "Orion",
+    "name": "Hospitality"
+  },
+  {
+    "author": "UnlimitedHugs",
+    "name": "Allow Tool"
+  },
+  {
+    "author": "Fluffy",
+    "name": "Blueprints",
+    "steamId": "708455313",
+    "version": "2.17.133"
+  },
+  {
+    "author": "Fluffy",
+    "name": "Pharmacist",
+    "steamId": "1365242717",
+    "version": "2.9.140"
+  },
+  {
+    "author": "Atlas, aRandomKiwi",
+    "name": "Android tiers",
+    "steamId": "1386412863",
+    "version": "2.0.2.0"
+  },
+  {
+    "author": "Naharri, Tarojun",
+    "name": "Thrumboian Race"
+  },
+  {
+    "author": "Bozu",
+    "name": "Avian Races"
+  },
+  {
+    "author": "[KOR]Bichang",
+    "name": "Ferian Race"
+  },
+  {
+    "author": "OTTU",
+    "name": "Poleepkwa Race Update"
+  },
+  {
+    "author": "Albion",
+    "name": "Xenohumans - Gen-spliced Xenos on the Rim"
+  },
+  {
+    "author": "Sarg",
+    "name": "Genetic Rim",
+    "steamId": "1113137502",
+    "version": "1.0.0.0"
+  },
+  {
+    "author": "Sarg",
+    "name": "Giddy-Up! Add-on: Animal Saddles"
+  },
+  {
+    "author": "Mlie",
+    "name": "High Tech Laboratory Facilities (Continued)",
+    "steamId": "1542048177",
+    "version": "1.0.12.0"
+  },
+  {
+    "author": "Dubwise",
+    "name": "Rimatomics",
+    "steamId": "1127530465",
+    "version": "1.7.2168"
+  },
+  {
+    "author": "Oskar Potocki, Sarg Bjornson",
+    "name": "Vanilla Textures Expanded - Genetic Rim"
+  },
+  {
+    "author": "Fluffy",
+    "name": "Follow Me",
+    "steamId": "715759739",
+    "version": "4.9.95"
+  }
+]
