@@ -112,7 +112,7 @@
 	},
 	{
 		"abr": "wandererjoins",
-		"price": 50,
+		"price": 300,
 		"karmatype": "Good"
 	},
 	{
@@ -307,7 +307,7 @@
 	},
 	{
 		"abr": "genderswap",
-		"price": 600,
+		"price": 100,
 		"karmatype": "Neutral"
 	},
 	{
@@ -387,12 +387,12 @@
 	},
 	{
 		"abr": "passion",
-		"price": 7000,
+		"price": 2000,
 		"karmatype": "Good"
 	},
 	{
 		"abr": "removepassion",
-		"price": 5000,
+		"price": 2000,
 		"karmatype": "Good"
 	},
 	{
