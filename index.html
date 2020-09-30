@@ -389,8 +389,8 @@
 	let pawnRaceList = null;
 	$.getJSON(shopExtURL, function(data) {
             var options = {
-                valueNames: ['name', 'price'],
-                item: '<tr><td class="name" scope="row"></td><td class="price"></td></tr>'
+                valueNames: ['name', 'purchaseName', 'price'],
+                item: '<tr><td class="name" scope="row"></td><td class="purchaseName"></td><td class="price"></td></tr>'
             };
 
             var pawnRaceData = [];
