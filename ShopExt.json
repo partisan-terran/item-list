@@ -1891,6 +1891,15 @@
       "data": {
         "customName": false
       }
+    },
+    {
+      "price": 4500,
+      "defName": "ZRPF_RACE_DEF",
+      "enabled": true,
+      "name": "Zeta reticulan",
+      "data": {
+        "customName": false
+      }
     }
   ]
 }
